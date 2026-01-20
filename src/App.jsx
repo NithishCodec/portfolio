@@ -30,8 +30,8 @@ export default function App() {
               <img src="sewing-pin.svg"></img>Tamilnadu,India
             </p>
             <p className="section-about">
-              I'm 20-year-old Full-Stack Web Developer. I have been programming
-              for more than 6 years. I create professional websites.
+              I'm 20-year-old AI Developer. I have been programming
+              for more than 6 years. I create professional AI systems.
             </p>
           </section>
           <div className="wrapper-info">

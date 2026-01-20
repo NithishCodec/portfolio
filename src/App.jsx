@@ -100,7 +100,7 @@ export default function App() {
               <img className="timeline-img" src="timeline.svg"></img>
               <div className="experience-list">
                 <div className="experience-tab">
-                  <a className="link" href="#">
+                  <a className="link" href="https://triostechnology.com/" target="_blank" rel="noopener noreferer">
                     Trios Technologies Pvt Ltd
                   </a>
                   <h2 className="role">Database Management</h2>
@@ -110,7 +110,7 @@ Gained hands-on experience in SQL database management, designing table structure
                   </p>
                 </div>
                 <div className="experience-tab">
-                  <a className="link" href="#">
+                  <a className="link" href="https://www.indesfarm.com/" target="_blank" rel="noopener noreferer">
                     Indesfarm Technologies LLP
                   </a>
                   <h2 className="role">Full-Stack Web Developer</h2>

@@ -21,7 +21,9 @@ export default function App() {
             <div className="section-header">
               <h2 className="section-name">Nithish Adhi </h2>
               <div className="icon-container">
-                <img className="icon-style" src="mail.svg"></img>
+                <a href="mailto:nithishadhi3124@email.com">
+                  <img className="icon-style" src="mail.svg" alt="Email" />
+                </a>
                 <img className="icon-style" src="github.svg"></img>
                 <img className="icon-style" src="leetcode.svg"></img>
               </div>
@@ -237,7 +239,7 @@ export default function App() {
       <div className="footer-container">
         <footer className="footer">
           <h1>
-            © 2025 Nithish Adhi| Created by Nithish Adhi. Look at some of my projects on GitHub <br/><a href="#">NithishAdhi</a>
+            © 2025 Nithish Adhi| Created by Nithish Adhi. Look at some of my projects on GitHub <br /><a href="#">NithishAdhi</a>
           </h1>
         </footer>
       </div>

@@ -101,15 +101,25 @@ export default function App() {
               <div className="experience-list">
                 <div className="experience-tab">
                   <a className="link" href="#">
-                    Project
+                    Trios Technologies Pvt Ltd
                   </a>
-                  <h2 className="role">Full-Stack Web Developer</h2>
-                  <h3 className="duration">October, 2023 - March, 2024</h3>
+                  <h2 className="role">Database Management</h2>
+                  <h3 className="duration">June, 2024 - July, 2024</h3>
                   <p className="desc">
-                    This is a sample description of the project details and the
-                    work done. This is an extra line
+Gained hands-on experience in SQL database management, designing table structures and working with data types.
                   </p>
                 </div>
+                <div className="experience-tab">
+                  <a className="link" href="#">
+                    Indesfarm Technologies LLP
+                  </a>
+                  <h2 className="role">Full-Stack Web Developer</h2>
+                  <h3 className="duration">May, 2025 - June, 2025</h3>
+                  <p className="desc">
+Designed and developed a responsive company website, delivering a live, production-ready web presence tailored to business requirements.
+                  </p>
+                </div>
+                {/*
                 <div className="experience-tab">
                   <a className="link" href="#">
                     Project
@@ -120,18 +130,8 @@ export default function App() {
                     This is a sample description of the project details and the
                     work done.
                   </p>
-                </div>
-                <div className="experience-tab">
-                  <a className="link" href="#">
-                    Project
-                  </a>
-                  <h2 className="role">Full-Stack Web Developer</h2>
-                  <h3 className="duration">October, 2023 - March, 2024</h3>
-                  <p className="desc">
-                    This is a sample description of the project details and the
-                    work done.
-                  </p>
-                </div>
+                </div> 
+                */}
               </div>
             </div>
           </div>
@@ -256,7 +256,8 @@ A FastAPI-based RAG system that converts uploaded text into embeddings and answe
       <div className="footer-container">
         <footer className="footer">
           <h1>
-            © 2025 Nithish Adhi| Created by Nithish Adhi. Look at some of my projects on GitHub <br /><a href="#">NithishAdhi</a>
+            © 2025 Nithish Adhi| Created by Nithish Adhi. Look at some of my projects on GitHub <br /><a href="https://github.com/NithishCodec"                   target="_blank"
+                  rel="noopener noreferrer">NithishAdhi</a>
           </h1>
         </footer>
       </div>

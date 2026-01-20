@@ -359,6 +359,7 @@ main {
   transform: scale(1.05);
 }
 
+/*
 .image-overlay {
   position: absolute;
   inset: 0;
@@ -368,6 +369,22 @@ main {
     rgba(32, 32, 32, 0.2)
   );
   z-index: 1;
+}
+*/
+
+
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(
+      to bottom right,
+      rgba(153, 153, 153, 0.2),
+      rgba(32, 32, 32, 0.2)
+    ),
+    var(--bg-image);
+  background-size: cover;
+  background-position: center;
 }
 
 .image-gradient {

@@ -24,8 +24,21 @@ export default function App() {
                 <a href="mailto:nithishadhi3124@email.com">
                   <img className="icon-style" src="mail.svg" alt="Email" />
                 </a>
-                <img className="icon-style" src="github.svg"></img>
-                <img className="icon-style" src="leetcode.svg"></img>
+                <a
+                  href="https://github.com/NithishCodec"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img className="icon-style" src="/github.svg" alt="GitHub" />
+                </a>
+
+                <a
+                  href="https://leetcode.com/u/Nithish_A/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img className="icon-style" src="/leetcode.svg" alt="LeetCode" />
+                </a>
               </div>
             </div>
             <p className="section-location">
@@ -127,22 +140,26 @@ export default function App() {
             <div class="containercard">
               <div class="projects-grid">
                 {/* <!-- Project Card --> */}
-                <div class="project-card">
+                <div class="project-card" style={{ "--bg-image": "url('/rag-system.PNG')" }}>
                   <div class="image-wrapper">
                     <div class="image-overlay"></div>
                     <div class="image-gradient"></div>
                     <div class="card-content">
-                      <h3 class="project-title">Project Title</h3>
+                      <h3 class="project-title">Mini RAG</h3>
                       <div class="tags">
                         <span class="tag">Python</span>
-                        <span class="tag">Django</span>
-                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">FastApi</span>
+                        <span class="tag">RAG</span>
+                        <span class="tag">LLM</span>
+                        <span class="tag">Generative AI</span>
                       </div>
                       <p class="description">
-                        to whomever it may concern this is the description of
-                        the project and the details
+A FastAPI-based RAG system that converts uploaded text into embeddings and answers questions with precise, context-grounded responses using Gemini.
                       </p>
-                      <a href="#" class="learn-more">
+                      <a href="https://mini-rag-system.onrender.com/"
+                        class="learn-more"
+                        target="_blank"
+                        rel="noopener noreferrer">
                         Learn More
                         <svg
                           class="arrow"

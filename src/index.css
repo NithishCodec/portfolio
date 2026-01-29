@@ -39,7 +39,7 @@ header {
 }
 
 body {
-  background-color: #111111;
+  background-color: #0e0e0e;
   display: flex;
   flex-direction: column;
 }

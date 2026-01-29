@@ -195,7 +195,10 @@ A FastAPI-based RAG system that converts uploaded text into embeddings and answe
                       <p class="description">
 An agentic AI built with FastAPI that can reason, plan, and act autonomously using LLMs and tools to solve complex user requests step by step.
                       </p>
-                      <a href="#" class="learn-more">
+                      <a href="https://angentic-ai-system.vercel.app/"
+                        class="learn-more"
+                        target="_blank"
+                        rel="noopener noreferrer">
                         Learn More
                         <svg
                           class="arrow"

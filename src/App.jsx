@@ -179,20 +179,21 @@ A FastAPI-based RAG system that converts uploaded text into embeddings and answe
                 </div>
                 {/* <!-- End Project Card --> */}
                 {/* <!-- Project Card --> */}
-                <div class="project-card">
+                <div class="project-card" style={{ "--bg-image": "url('/agentic-ai-system.PNG')" }}>
                   <div class="image-wrapper">
                     <div class="image-overlay"></div>
                     <div class="image-gradient"></div>
                     <div class="card-content">
-                      <h3 class="project-title">Project Title</h3>
+                      <h3 class="project-title">Agentic AI</h3>
                       <div class="tags">
                         <span class="tag">Python</span>
-                        <span class="tag">Django</span>
-                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">FastApi</span>
+                        <span class="tag">Pydantic</span>
+                        <span class="tag">Agentic AI</span>
+                        <span class="tag">CORS</span>
                       </div>
                       <p class="description">
-                        to whomever it may concern this is the description of
-                        the project and the details
+An agentic AI built with FastAPI that can reason, plan, and act autonomously using LLMs and tools to solve complex user requests step by step.
                       </p>
                       <a href="#" class="learn-more">
                         Learn More

@@ -5,14 +5,12 @@ export default function App() {
         <h1 className="title-name">Nithish Adhi</h1>
 
         <nav className="title-util">
-          <h2 className="title-util-item">About</h2>
-          <h2 className="title-util-item">My work</h2>
-          <h2 className="title-util-item">Projects</h2>
-          <h2 className="title-util-item">Posts</h2>
-          <h2 className="title-util-item">Contact Me</h2>
+
         </nav>
 
-        <h1 className="title-translate">Resume</h1>
+        <h1 className="title-translate">  <a className="title-translate" href="Nithish_A_Resume_Core.pdf" download>
+    Resume
+  </a></h1>
       </header>
 
       <main>
